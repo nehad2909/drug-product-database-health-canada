@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- templatemo 413 flip turn -->
+<!-- 
+Flip Turn Template 
+http://www.templatemo.com/preview/templatemo_413_flip_turn
+-->
 <head>
 	<title>Group2 Project Capstone</title>
 	<meta name="keywords" content="Capstone Project" />
@@ -16,48 +20,40 @@
 		<nav class="main-nav">
 			<div id="logo" class="left"><a href="#">Group 2 Project</a></div>
 			<ul class="nav right center-text">
-				<li class="btn active">Home</li>
-				
+				<li class="btn"><a href="index.html">Home</a></li>
 				<li class="btn"><a href="dpd.html">DPD DashBoard</a></li>	
-				<li class="btn"><a href="form.html">Form</a></li>			
+				<li class="btn active">Form</li>				
 				<!-- <li class="btn"><a href="servicios.html">Servicios</a></li>
 				<li class="btn"><a href="contacto.php">Contacto</a></li> -->
 			</ul>
 		</nav>
 		<div class="content-container">
 			<header>
-				<h1 class="center-text">Analysis of Human Drug Product</h1>
-				<h2 class="center-text">Capstone Project | Group 2</h2>
+				<!-- <h1 class="center-text">Drug Query</h1> -->
+				<h2>Please type the drug product and company make.</h2>
 			</header>
-			<div class="templatemo-detail content">
+
+			
 				
-				<div class="about-detail">
-                    <h1>About us</h1>	
-                    <img src="images/group2.jpg" alt="logo2023	" class="left shadow">
-					<p class="justify">Students of St Clair College, DAB402 Project Capstone, Section 3. Winter 2023 Semester </p>
-					<p class="justify">Professor: Umair Durrani </p>
-                    <h3 class="subtitle">Team Memmbers</h3>
-					<ul class="checkmark pad-left">
-						<li>Luis Palacios</li>
-						<li>Neha Dewangan</li>
-						<li>Grace Mathai</li>
-                        <li>Sagar Parmar</li>
-						<li>Eranga Kumanayake</li>
-					</ul>
-                    
-                    <br>
-                    
-                    
-					
-					
-				</div>	
-                
-			</div>
-		</div> <!-- /.content-container -->			
+				<form name="Med_submission" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+					<div class="templatemo_form">
+						<input name="name" type="text" class="form-control" placeholder="Medication Generic Name:" maxlength="40">
+					</div>
+					<div class="templatemo_form">
+						<input name="company" type="text" class="form-control" placeholder="Company Lab" maxlength="40">
+					</div>
+
+					<div class="templatemo_form"><button type="submit" class="btn btn-primary">Submit</button></div>
+
+				</form>
+			
+		</div> <!-- /.content-container -->
 		<footer>
 			<p>Copyright &copy; 2023 St Clair College, Windsor, ON | Develop by LP</p>
 		</footer>
 	</div>
-		
+	<script type="text/javascript" src="js/templatemo_script.js"></script>
+	<script type="text/javascript">	loadScript();</script>
+	<script src="script.js"></script>
 </body>
 </html>
