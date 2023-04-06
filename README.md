@@ -1,5 +1,5 @@
 ![Analysis of human drug products logo](https://user-images.githubusercontent.com/535645/230121042-5ce9edea-acc5-4efc-9047-7bedee4bf163.png)
-# Drug shortages in Canada
+# Drug Shortages in Canada
 ### Forecasting model to predict the probability of drug shortage based on historical data and predict their probability of shortage
 -----
 
