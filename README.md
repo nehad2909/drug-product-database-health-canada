@@ -17,3 +17,6 @@ This can have serious consequences for the quality of care, patient outcomes, he
   ## Proposed Solution
   -  Create a model based on the historical data from 2017 to now using Python Prophet library, forecasting time series data based in additive model that can handle trend, seasonality, and other factors.
   
+ 
+Project web site
+https://group2-dab402.netlify.app/index.html
