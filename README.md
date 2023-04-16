@@ -3,7 +3,7 @@
 ### Forecasting model to predict the probability of drug shortage based on historical data and predict their probability of shortage
 -----
 
-# About the project :)
+# About the project
 This project aims to make us aware of the problem that most people have faced at least once in their daily life: shortage of drugs and medicine
 
 The availability and affordability of essential medicines are crucial for the health and well-being of the population. Essential medicines are those that satisfy the priority health care needs of the people and are selected based on public health relevance, evidence of efficacy and safety, and comparative cost-effectiveness.
